@@ -7,11 +7,11 @@
 
 ## Interactivity
 
-Now let's cover how we can make our Dash apps interactive. In order to do this, we need to import Input and Output from dash.dependencies.
+Now let's cover how we can make our Dash apps interactive. We must import Input and Output from dash.dependencies to do this.
 
-Don't confuse these with the HTML Input because they are different. The HTML Input is imported from the dash core components.
+Please don't confuse these with the HTML Input because they are different. The HTML Input is imported from the dash core components.
 
-In the next slide, we create an input text and bind it to a callback such that whenever you type something into that box, it updates my-div in real time.
+In the next slide, we create an input text and bind it to a callback such that whenever you type something into that box, it updates my-div in real-time.
 
 
 
@@ -29,7 +29,7 @@ In the next slide, we create an input text and bind it to a callback such that w
 
 ## Introduction to Dash Plotly
 
-In the video below, we'll be creating a Dash app to understand what factors are affecting the bees population.
+In the video below, we'll be creating a Dash app to understand what factors are affecting the bee population.
 
 You can directly use the dataset from the link: 
 
