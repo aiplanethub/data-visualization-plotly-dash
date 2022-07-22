@@ -19,7 +19,7 @@ or conda:
 
 `conda install -c plotly plotly=4.14.3`
 
-PS. plotly comes pre-installed in Google Colab.
+PS: plotly comes pre-installed in Google Colab.
 
 
 ## Creating Plotly Figures
@@ -43,12 +43,11 @@ customization
 ## Typical steps for creating interactive plots
 
 
-1. Getting the data to be used for creating visualization and
-preprocessing it to convert it into the desired format.
-2. Calling the plotly API in the language/ tool of your choice.
-3. Creating the plot by specifying objectives like the data that is to be represented at each axis of the plot, most appropriate plot type (like histogram, box plots, 3D surfaces), color of data points or line in the plot and other features.
+1. Get the data to be used for creating visualizations and preprocess it to convert it into the desired format.
+2. Call the Plotly API in the language/ tool of your choice.
+3. Create the plot by specifying objectives like the data to be represented at each axis of the plot, the most appropriate plot type (like histogram, box plots, 3D surfaces), the color of data points, lines in the plot and other features.
 
-Here’s a generalized format for basic plotting in Python:
+Here's a generalized format for basic plotting in Python:
 
 `plotly.plotly( [plotly.graph_objs .type(x ,y ,mode , marker = dict(color ,size ))]`
 
@@ -56,10 +55,10 @@ Where:
 
 * x = values for x-axis
 * y = values for y-axis
-* type = to specify the plot that you want to create like “histogram”, “surface”, “box”, etc.
-* mode = format in which you want data to be represented in the plot. Possible values are “markers”, “lines, “points”.
-* color = values of same length as x, y and z that represents the color of data points or lines in plot.
-* size = values for same length as x, y and z that represents the size of data points or lines in plot.
+* type = to specify the plot that you want to create like "histogram", "surface", "box", etc.
+* mode = format in which you want data to be represented in the plot. Possible values are "markers", "lines, "points".
+* color = values of the same length as x, y, and z representing the color of data points or lines in the plot.
+* size = values of the same length as x, y, and z representing the size of data points or lines in the plot.
 
 
 
@@ -82,7 +81,7 @@ style of the figure.
 
 The video below will give a walkthrough of the following topics:
 
-* Plotly Express vs Plotly Graph Objects
+* Plotly Express vs. Plotly Graph Objects
 * Navigating Plotly's documentation to create your graphs
 * Building a Pie Chart and customizing it
 * Getting support when you are stuck
@@ -125,7 +124,7 @@ All the operations performed in the video can be found in this notebook:
 
 https://dphi.tech/notebooks/948/gunnika/getting-started-with-plotly-and-building-a-pie-chart
 
-We would strongly suggest creating a new notebook/python file of your own and working along the video. You can refer to the notebook whenever you are stuck!
+We strongly suggest creating a new notebook/python file of your own and working along the video. You can refer to the notebook whenever you are stuck!
 
 ## Bar Chart
 
@@ -156,7 +155,7 @@ All the operations performed in the video can be found in this notebook:
 
 https://dphi.tech/notebooks/949/gunnika/creating-and-customizing-bar-charts-in-plotly
 
-We would strongly suggest creating a new notebook/python file of your own and working along the video. You can refer to the notebook whenever you are stuck!
+We strongly suggest creating a new notebook/python file of your own and working along the video. You can refer to the notebook whenever you are stuck!
 
 ### Slide Download Link
 You can download the slides for this topic from [here](https://docs.google.com/presentation/d/1mZQ82PeoLN6w0kL9HhUBA4fQ5Lkrx2B5FOtGJ5hPRFU/edit?usp=sharing).
